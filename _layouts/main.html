@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {% include head.html %}
-  <body>
+  <body class="layout-main">
 
     {% include header.html %}
 
+
     {{ content }}
+
+
+    {% include footer.html %}
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
