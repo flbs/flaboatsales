@@ -28,25 +28,25 @@ repository: flbs/flaboatsales
 # Build settings
 markdown: kramdown
 
-gems: [bootstrap, autoprefixer-rails, jekyll-assets, jekyll-sitemap]
+gems: [bootstrap, autoprefixer-rails, jekyll-sitemap] # jekyll-assets,
 sass:
   sass_dir: assets/stylesheets
 
 # stylesheet:
 
 
-assets:
-  compress:
-      css: true
-      js: true
-  features:
-    automatic_img_size: false
-  sources:
-    - assets/vendor
-    - assets/fonts
-    - assets/images
-    - assets/javascripts
-    - assets/stylesheets
+#assets:
+#  compress:
+#      css: true
+#      js: true
+#  features:
+#    automatic_img_size: false
+#  sources:
+#    - assets/vendor
+#    - assets/fonts
+#    - assets/images
+#    - assets/javascripts
+#    - assets/stylesheets
 
 exclude:
   - .bowerrc
