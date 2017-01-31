@@ -18,8 +18,7 @@
   <link rel="icon" type="image/png" href="/favicon.png">
 
   {% stylesheet application %}
-  <link rel="stylesheet" href="/assets/application.css" />
-  <link rel="stylesheet" href="/assets/main.css" />
+  {% stylesheet main %}
 
   {% assign custom_url = site.url | append: site.baseurl %}
   {% assign full_base_url = custom_url %}
