@@ -1,39 +1,10 @@
 @import 'framework';
 
-//@import 'dev';
+@import 'dev';
 
 /** =====
  *  Development - Scss styling
  */
-
-$default-font-family: "Open Sans", Roboto, Arial, sans-serif;
-body {
-    font-family: $default-font-family;
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
-
-}
-
-.jumbotron-title {
-
-    font-family: $default-font-family;
-    font-weight: bold;
-    color: #333;
-    margin-top: 2rem;
-}
-
-footer {
-    a {
-        color: #DEDEDE;
-    }
-
-    .footer-container > hr {
-        border-color: #555;
-    }
-}
 
 
 

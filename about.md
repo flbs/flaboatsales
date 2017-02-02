@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About Florida Boat Sales
-permalink: /about
+title: About Us
+permalink: about
 ---
 
 # About Us
@@ -10,5 +10,4 @@ permalink: /about
 
 
 
-
-**Boat Trader ID:** {{ boattrader.dealer.id }}
+**Boat Trader ID:** {{ site.boattrader.dealer.id }}

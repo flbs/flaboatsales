@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include head.html %}
-<body class="layout-main">
+<body class="layout-iframe">
 
-    <header id="main-header">
-        {% include header.html %}
-    </header>
+    {% include header.html %}
 
-    <main class="py-4" id="main-content">
-        {{ content }}
+    <main class="py-4">
+
+        {{content}}
+
     </main>
 
-    <footer class="bg-inverse" id="main-footer">
-        {% include footer.html %}
-    </footer>
-    <!-- /#main-footer -->
+
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>

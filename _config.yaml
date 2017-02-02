@@ -18,35 +18,38 @@ email: sales@flaboatsales.com
 description: Florida Boat Sales | Treasure Coast, Stuart, Florida
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.flaboatsales.com" # the base hostname & protocol for your site
-phone1: "(772) 985-8885"
+phone: "(772) 985-8885"
 phone2: ""
 
 boattrader_url: http://www.boattrader.com/dealers/Florida-Boat-Sales/2980404
 boattrader:
   dealer:
     id: 2980404
-
-
-
+    name: ""
+    address: ""
+  listings_url: http://www.boattrader.com/dealers/print/2980404/all
 
 twitter_username: flaboatsales
 github_username:  flbs
 
 
-
-
-
-
-
-
 # PAGES_REPO_NWO: "http://www.github.com/flbs/flaboatsales"
 # or use PAGES_REPO_NWO in the env
-repository: flbs/flaboatsales
+repository: "flbs/flaboatsales"
 
 # Build settings
 markdown: kramdown
 
 gems: [bootstrap, autoprefixer-rails, jekyll-sitemap] # jekyll-assets,
+
+#  - jekyll-avatar
+#  - jekyll-feed
+#  - jekyll-mentions
+#  - jekyll-redirect-from
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jemoji
+
 sass:
   sass_dir: assets/stylesheets
 

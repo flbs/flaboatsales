@@ -29,5 +29,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "mini_magick"
   gem "sass"
+  gem 'match_regex'
+  gem 'replace_regex'
   gem "uglifier"
 end

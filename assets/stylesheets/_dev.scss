@@ -7,24 +7,48 @@ body {
     font-family: $default-font-family;
 }
 
+header {
+    &#main-header {
+
+
+    }
+}
+
+main {
+    &#main-content {
+        min-height: 400px;
+    }
+    .jumbotron {
+        margin-top:-1.5rem;
+    }
+}
+
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: 700;
 
 }
 
+.jumbotron {
+    padding: 0;
+}
 .jumbotron-title {
 
     font-family: $default-font-family;
     font-weight: bold;
     color: #333;
-    margin-top: 2rem;
+    // margin-top: 2rem;
 }
-
-
 
 footer {
     a {
-        color:#dedede;
+        color: #DEDEDE;
+    }
+
+    .footer-container > hr {
+        border-color: #555;
+    }
+    &#main-footer {
+
     }
 }
