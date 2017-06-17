@@ -81,6 +81,8 @@ exclude:
   - README.md
   - vendor
   - script/*
+  - assets/vendor/*
+  - docs/*
 
 ga_analytics: # Add Google Analytics tracking code
 
