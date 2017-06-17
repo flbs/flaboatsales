@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Florida Boat Sales
+# title: "Florida Boat Sales | Consignment brokerage serving Florida's Treasure Coast: Stuart, Port St Lucie, Palm Beach"
 email: sales@flaboatsales.com
 description: Florida Boat Sales | Treasure Coast, Stuart, Florida
 baseurl: "/" # the subpath of your site, e.g. /blog
