@@ -1,7 +1,8 @@
 ---
 layout: iframe
-title: Inventory
+title: Current Used Boat Inventory in Stuart, Florida
 permalink: current-inventory
+nav_title: Inventory
 ---
 
 <style>html, body, main, iframe { height: 100%; }</style>

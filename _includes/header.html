@@ -9,9 +9,9 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto">
       {% for my_page in site.pages %}
-        {% if my_page.title %}
+        {% if my_page.nav_title %}
         <li class="nav-item">
-          <a class="nav-link" href="{{ my_page.url | prepend: full_base_url }}">{{ my_page.title | escape }}</a>
+          <a class="nav-link" href="{{ my_page.url | prepend: full_base_url }}">{{ my_page.nav_title | escape }}</a>
         </li>
         {% endif %}
       {% endfor %}

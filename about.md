@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About Us
+title: About Florida Boat Sales on the Treasure Coast
+nav_title: About Us
 permalink: about
 published: false
 ---
